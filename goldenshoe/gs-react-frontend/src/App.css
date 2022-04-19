@@ -1,0 +1,35 @@
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+select:focus,
+.uneditable-input:focus {
+    border-color: darkgoldenrod !important;
+    box-shadow: 0 1px 1px #FFDF57 inset, 0 0 8px #FFDF57 !important;
+    outline: 0 none !important;
+}
+
+.yellow, .yellowHovred:hover {
+    background-color: #EF9E0F !important;
+    color: white;
+    margin-right: 5px !important;
+    border-radius: 15px !important;
+}
+
+.gray {
+    background-color: #666666 !important;
+    color: white !important;
+    margin-right: 5px !important;
+    border-radius: 15px !important;
+}
